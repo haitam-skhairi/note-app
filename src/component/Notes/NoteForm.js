@@ -12,7 +12,7 @@ const NoteForm = (props) => {
                 type="text"
                 name="title"
                 className="form-input mb-30"
-                placeholder="العنوان"
+                placeholder="Title"
                 value={title}
                 onChange={titleChanged}
             />
@@ -21,7 +21,7 @@ const NoteForm = (props) => {
                 rows="10"
                 name="content"
                 className="form-input"
-                placeholder="النص"
+                placeholder="Text"
                 value={content}
                 onChange={contentChanged}
             />
